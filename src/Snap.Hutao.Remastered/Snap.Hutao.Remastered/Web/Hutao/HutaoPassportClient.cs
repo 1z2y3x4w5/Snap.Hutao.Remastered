@@ -16,15 +16,14 @@ namespace Snap.Hutao.Remastered.Web.Hutao;
 internal sealed partial class HutaoPassportClient
 {
     private const string PublicKey = """
-        -----BEGIN PUBLIC KEY-----
-        MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy4i0acb1/rTjwNt4Wsi/
-        AgRLztRRGhludiYOWskqS6o0wTy6+DkGNZew/8qy93Tmv/mhYMoBhDJACD7Dpzu6
-        2cdiPl6MW8wuAE+H86Mh7ghWxnUAvdK6Cp3qbk7MaJF2zI/2yYesGYhcf7HZmZmC
-        RldyQnH9SP30FRhmbSAqGAjVSObwfa3W9islkbYB2SkcXguK+hONZmtqISoiUK1/
-        d+ZEpL01MNWI06iUxin+iT3yk68o6reLOk/Yoqjj12pONIwbu7Up4noLhhhmBdR3
-        7Xy9csCounngKoBw+7tEmmzJzeqYm/zeHp/Jpy/996dIxAiq6jVvNpWaT9Es6s08
-        cwIDAQAB
-        -----END PUBLIC KEY-----
+        -----BEGIN RSA PUBLIC KEY-----
+        MIIBCgKCAQEAtjUS4JLsfCVbueTReY1E/kFBzoCQZtbSGW/BatU9BaZbgd1iIHKb
+        CQhs0Uf3POcavhqW2/UVTxBlhi3cfzRVBbd61FZk0Xt5EI+8SvGxVR176yobMvZt
+        7JcpommpY4RvfItiiag5GplLS9jrkOPlKsQiIAZaawgxL1HVpf6cPkHzfZCuzlDO
+        agntlYgP8wkZI+K6E63AHFRgfU7n0YO9jUPhSDPRXvGo5n/5B19L+fiPYbf++e8z
+        ywZVtoJ5ztJ/+6Vp+N7H/C5PEJGy9ZKHWSvTvCs8Curg2ahB8xD1aPd1XEOmkMBf
+        DVuD0wOHnn7I03seIOU7l0w8ojP3E+eG3QIDAQAB
+        -----END RSA PUBLIC KEY-----
         """;
 
     private readonly IHttpRequestMessageBuilderFactory httpRequestMessageBuilderFactory;

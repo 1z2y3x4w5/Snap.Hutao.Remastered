@@ -6,9 +6,9 @@ namespace Snap.Hutao.Remastered.Web.Endpoint.Hutao;
 [Service(ServiceLifetime.Singleton, typeof(IHutaoEndpoints), Key = HutaoEndpointsKind.Release)]
 internal sealed class HutaoEndpointsForRelease : IHutaoEndpoints
 {
-    string IHomaRootAccess.Root { get => "https://htserver.wdg.cloudns.ch/api"; }
+    string IHomaRootAccess.Root { get => "http://homa.snaphutaorp.org"; }
 
-    string IInfrastructureRootAccess.Root { get => "https://htserver.wdg.cloudns.ch/api"; }
+    string IInfrastructureRootAccess.Root { get => "http://api.snaphutaorp.org"; }
 
-    string IInfrastructureRawRootAccess.RawRoot { get => "https://htserver.wdg.cloudns.ch/api"; }
+    string IInfrastructureRawRootAccess.RawRoot { get => "http://api.snaphutaorp.org"; }
 }

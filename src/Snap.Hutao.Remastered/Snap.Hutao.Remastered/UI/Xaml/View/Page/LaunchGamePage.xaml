@@ -864,6 +864,7 @@
                                         </TeachingTip.HeroContent>
                                     </TeachingTip>
                                     <ToggleSwitch
+                                        Visibility="Collapsed"
                                         Grid.Row="3"
                                         Grid.Column="2"
                                         Header="{shuxm:ResourceString Name=ViewPageLaunchGameIslandUsingTouchScreenHeader}"
@@ -871,27 +872,32 @@
                                         IsOn="{Binding LaunchOptions.UsingTouchScreen.Value, Mode=TwoWay}"/>
 
                                     <ToggleSwitch
+                                        Visibility="Collapsed"
                                         Grid.Row="4"
                                         Grid.Column="0"
                                         Header="{shuxm:ResourceString Name=ViewPageLaunchGameIslandResinListItemAllowOriginalResinHeader}"
                                         IsOn="{Binding LaunchOptions.ResinListItemId000106Allowed.Value, Mode=TwoWay}"/>
                                     <ToggleSwitch
+                                        Visibility="Collapsed"
                                         Grid.Row="4"
                                         Grid.Column="1"
                                         Header="{shuxm:ResourceString Name=ViewPageLaunchGameIslandResinListItemAllowPrimogemHeader}"
                                         IsOn="{Binding LaunchOptions.ResinListItemId000201Allowed.Value, Mode=TwoWay}"/>
                                     <ToggleSwitch
+                                        Visibility="Collapsed"
                                         Grid.Row="4"
                                         Grid.Column="2"
                                         Header="{shuxm:ResourceString Name=ViewPageLaunchGameIslandResinListItemAllowFragileResinHeader}"
                                         IsOn="{Binding LaunchOptions.ResinListItemId107009Allowed.Value, Mode=TwoWay}"/>
 
                                     <ToggleSwitch
+                                        Visibility="Collapsed"
                                         Grid.Row="5"
                                         Grid.Column="0"
                                         Header="{shuxm:ResourceString Name=ViewPageLaunchGameIslandResinListItemAllowTransientResinHeader}"
                                         IsOn="{Binding LaunchOptions.ResinListItemId107012Allowed.Value, Mode=TwoWay}"/>
                                     <ToggleSwitch
+                                        Visibility="Collapsed"
                                         Grid.Row="5"
                                         Grid.Column="1"
                                         Header="{shuxm:ResourceString Name=ViewPageLaunchGameIslandResinListItemAllowCondensedResinHeader}"

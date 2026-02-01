@@ -103,7 +103,7 @@
                             IsOpen="True"
                             Message="{shuxm:ResourceString Name=ViewPageHutaoPassportGachaLogCloudDescription}"/>
                         <cwc:SettingsCard Description="{Binding HutaoUserOptions.CloudExpireAt}" Header="{shuxm:ResourceString Name=ViewPageSettingHutaoPassportGachaLogExpiredAtHeader}">
-                            <Button Content="{shuxm:ResourceString Name=ViewPageHutaoPassportSponsorAction}" Style="{ThemeResource SettingButtonStyle}">
+                            <Button Visibility="Collapsed" Content="{shuxm:ResourceString Name=ViewPageHutaoPassportSponsorAction}" Style="{ThemeResource SettingButtonStyle}">
                                 <mxi:Interaction.Behaviors>
                                     <mxi:EventTriggerBehavior EventName="Click">
                                         <cwb:NavigateToUriAction NavigateUri="https://afdian.com/item/80d3b9decf9011edb5f452540025c377"/>
@@ -112,11 +112,12 @@
                             </Button>
                         </cwc:SettingsCard>
                         <InfoBar
+                            Visibility="Collapsed"
                             Title="{shuxm:ResourceString Name=ViewPageHutaoPassportCDNCloudHeader}"
                             IsClosable="False"
                             IsOpen="True"
                             Message="{shuxm:ResourceString Name=ViewPageHutaoPassportCDNCloudDescription}"/>
-                        <cwc:SettingsCard Description="{Binding HutaoUserOptions.CdnExpireAt}" Header="{shuxm:ResourceString Name=ViewPageSettingHutaoPassportCdnExpiredAtHeader}">
+                        <cwc:SettingsCard Visibility="Collapsed" Description="{Binding HutaoUserOptions.CdnExpireAt}" Header="{shuxm:ResourceString Name=ViewPageSettingHutaoPassportCdnExpiredAtHeader}">
                             <Button Content="{shuxm:ResourceString Name=ViewPageHutaoPassportSponsorAction}" Style="{ThemeResource SettingButtonStyle}">
                                 <mxi:Interaction.Behaviors>
                                     <mxi:EventTriggerBehavior EventName="Click">
